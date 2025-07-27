@@ -1,0 +1,25 @@
+.DoctorCard {
+  padding-left: 10%;
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  width: 100%;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card img {
+  margin: 0;
+}
+
+.Info {
+  padding-left: 5%;
+}

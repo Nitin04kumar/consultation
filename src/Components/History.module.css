@@ -1,0 +1,21 @@
+.HistoryCard {
+  padding-left: 10%;
+  padding-top: 5%;
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.line {
+  margin-left: 10%;
+  margin-right: 10%;
+}

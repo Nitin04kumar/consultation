@@ -1,0 +1,45 @@
+.logo{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    display: flex;
+
+}
+
+.image{
+    padding-right: 2%;
+    
+}
+
+.leftSection{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+
+.HospitalName{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-family:monospace;
+    font-weight: bold;
+    color:cornflowerblue;
+}
+
+.RightSection{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.ProfileName {
+    display: flex;
+    align-items:center   ;    /* Vertically center (Y-axis) */
+    justify-content:right;  /* Horizontally center (X-axis) */
+    width: 50%;
+    padding-right: 1%;
+}
+
+
+

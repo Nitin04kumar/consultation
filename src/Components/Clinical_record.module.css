@@ -1,0 +1,64 @@
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1%;
+  padding-right: 2%;
+}
+
+.heading {
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.New_button {
+  font-size: medium;
+  padding: 5px 12px;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.New_button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* ✅ Centered modal overlay */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* semi-transparent dark background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* ✅ Centered modal box */
+.modalContent {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+
+/* Inputs inside the modal */
+.modalContent input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+/* Buttons in modal */
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}

@@ -1,0 +1,13 @@
+.Right {
+  width: 100%;
+  padding-right: 5%;
+}
+
+/* Style for the actual box/card */
+.box {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding-left: 3%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
