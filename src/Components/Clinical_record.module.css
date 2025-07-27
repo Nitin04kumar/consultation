@@ -26,7 +26,6 @@
   color: white;
 }
 
-/* ✅ Centered modal overlay */
 .modalOverlay {
   position: fixed;
   top: 0;
@@ -37,26 +36,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
 }
 
-/* ✅ Centered modal box */
 .modalContent {
   background-color: white;
-  padding: 30px;
+  padding: 2%;
   border-radius: 10px;
-  width: 400px;
+  width: 40%;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
 }
 
-/* Inputs inside the modal */
 .modalContent input {
   width: 100%;
   padding: 8px;
   margin: 8px 0;
 }
 
-/* Buttons in modal */
 .buttonGroup {
   display: flex;
   justify-content: space-between;
