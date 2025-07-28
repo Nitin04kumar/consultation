@@ -1,4 +1,4 @@
-import styles from "./Clinical_record.module.css";
+import styles from "./Clinical_record_input.module.css";
 
 import { Consultant_record, Patient } from "../DataBase/DataBase";
 import { useState } from "react";
