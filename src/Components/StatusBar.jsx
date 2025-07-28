@@ -11,7 +11,7 @@ export default function StatusBar() {
             <img src={logo} alt="Logo" height="50px" width="50px"></img>
           </span>
           <span className={styles.HospitalName}>
-            <p>Hospital name</p>
+            <p>Cognizant HealthCare</p>
           </span>
         </div>
 
