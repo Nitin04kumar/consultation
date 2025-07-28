@@ -44,6 +44,8 @@
   border-radius: 10px;
   width: 40%;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  max-height: 70%;
+  overflow-y: auto;
 }
 
 .modalContent input {
@@ -56,4 +58,14 @@
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
+}
+
+.additionalDetails {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.Medication {
+  padding-right: 1%;
 }

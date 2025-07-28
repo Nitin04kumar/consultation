@@ -17,7 +17,7 @@ export default function Clinical_record() {
         </span>
       </div>
 
-      {showForm ? <Clinical_record_input /> : null}
+      {showForm ? <Clinical_record_input handleClose={handleClose} /> : null}
     </>
   );
 }
