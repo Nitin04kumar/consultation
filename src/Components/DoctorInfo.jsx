@@ -22,6 +22,8 @@ export default function DoctorInfo() {
             {Patient.Address} <br></br>
             <b>Age : </b>
             {Patient.Age} yrs <br></br>
+            <b>Blood Group : </b>
+            {Patient.Bg}<br></br>
             <b>DOB : </b>
             {Patient.DOB}
           </p>
