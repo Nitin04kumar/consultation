@@ -14,6 +14,7 @@ export const Patient = {
   Dist: "Hydrabad",
   State: "Telangana",
   DOB: "04/12/2003",
+  Bg:"B+",
 };
 
 export const Consultant_record = {
